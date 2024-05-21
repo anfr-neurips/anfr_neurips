@@ -1,0 +1,1 @@
+After training has finished, `gradcam_viz.ipynb` can be used to produce the GradCAM++ visualization like those seen in the paper.

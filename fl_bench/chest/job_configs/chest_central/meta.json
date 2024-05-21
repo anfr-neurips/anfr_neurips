@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "resource_spec": {},
+    "deploy_map": {
+        "chest_central": [
+            "@ALL"
+        ]
+    }
+}

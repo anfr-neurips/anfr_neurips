@@ -1,0 +1,20 @@
+{
+    "train_idx_root": "",
+    "learning_rate": 0.0005,
+    "fedprox_mu": 0.0,
+    "batch_size": 64,
+    "max_steps": 20,
+    "scheduler": "none",
+    "model_name": "gn_resnet50_supervised",
+    "optimizer_args": {
+        "class": "AdamW",
+        "weight_decay": 0.0001
+    },
+    "optim_resume": "resume",
+    "local_steps": 1,
+    "use_half_precision": true,
+    "interp_method": "",
+    "grad_clipping_type": "none",
+    "grad_clipping_value": 1.0,
+    "steps_or_epochs": "epochs"
+}

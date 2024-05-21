@@ -1,0 +1,9 @@
+{
+    "name": "fed_isic_central_caformer_supervised_2_0.0005_2910_fed_isic_fedavg",
+    "deploy_map": {
+        "fed_isic_central": [
+            "@ALL"
+        ]
+    },
+    "min_clients": 1
+}

@@ -1,0 +1,2 @@
+After downloading the CXR14 data from [here](https://github.com/jfhealthcare/Chexpert?tab=readme-ov-file), run `preprocess_cxp.ipynb` to
+split the data based on the patient age and create train, validation, and test csv files for both the produced clients.

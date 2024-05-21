@@ -1,0 +1,9 @@
+{
+    "name": "fed_isic_federated_per_seresnet_50_supervised_80_0.0005_200_fed_isic_fedbn",
+    "deploy_map": {
+        "fed_isic_federated_per": [
+            "@ALL"
+        ]
+    },
+    "min_clients": 6
+}

@@ -1,0 +1,19 @@
+{
+  "learning_rate": 0.001,
+  "fedprox_mu": 0.0,
+  "cache_dataset": 1.0,
+  "batch_size": 1,
+  "max_steps": 150,
+  "scheduler": "none",
+  "model_name": "",
+  "optimizer_args": {
+      "class": "Adam"
+  },
+  "optim_resume": "restart",
+  "local_steps": 1,
+  "use_half_precision": true,
+  "cache_rate": 1.0,
+  "grad_clipping_type": "none",
+  "grad_clipping_value": 1.0,
+  "steps_or_epochs": "epochs"
+}

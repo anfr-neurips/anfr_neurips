@@ -1,0 +1,1 @@
+After downloading the CXR14 data from [here](https://nihcc.app.box.com/v/ChestXray-NIHCC), run `preprocess_cxr.ipynb` to produce train, validation, and test csv files.

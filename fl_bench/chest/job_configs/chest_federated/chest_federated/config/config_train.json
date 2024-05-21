@@ -1,0 +1,20 @@
+{
+    "learning_rate": 0.001,
+    "fedprox_mu": 0.0,
+    "batch_size": 256,
+    "max_steps": 10000,
+    "scheduler": "onecycle",
+    "criterion": "bce",
+    "model_name": "resnet50_supervised",
+    "optimizer_args": {
+        "class": "Adam"
+    },
+    "optim_resume": "resume",
+    "local_steps": 500,
+    "use_half_precision": true,
+    "interp_method": "",
+    "cache_rate": 1.0,
+    "grad_clipping_type": "none",
+    "grad_clipping_value": 1.0,
+    "steps_or_epochs": "steps"
+}

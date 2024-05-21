@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "executors": [
+        {
+            "tasks": [
+                "train",
+                "submit_model",
+                "validate"
+            ],
+            "executor": {
+                "id": "Executor",
+                "name": "LearnerExecutor",
+                "args": {
+                    "learner_id": "medmnist-learner"
+                }
+            }
+        }
+    ],
+    "task_result_filters": [],
+    "task_data_filters": [],
+    "components": [
+        {
+            "id": "medmnist-learner",
+            "path": "",
+            "args": {
+                "config_train_name": "config_train.json",
+                "method": "fedavg",
+                "seed": 111,
+                "central": true
+            }
+        }
+    ]
+}

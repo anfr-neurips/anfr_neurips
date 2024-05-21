@@ -1,0 +1,9 @@
+{
+    "name": "fed_isic_federated_resnet_50_pretrained_timm_80_0.0005_200_fed_isic_fedprox",
+    "deploy_map": {
+        "fed_isic_federated": [
+            "@ALL"
+        ]
+    },
+    "min_clients": 6
+}

@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "deploy_map": {
+        "colon_central": [
+            "@ALL"
+        ]
+    },
+    "min_clients": 1
+}

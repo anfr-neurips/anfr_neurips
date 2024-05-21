@@ -1,0 +1,16 @@
+{
+    "train_idx_root": "",
+    "learning_rate": 0.01,
+    "fedprox_mu": 0.0,
+    "batch_size": 64,
+    "max_steps": 20000,
+    "model_name": "",
+    "optimizer_args": {
+        "class": "SGD",
+        "momentum": 0.9,
+        "nesterov": true,
+        "weight_decay": 1e-05
+    },
+    "local_steps": 4000,
+    "use_half_precision": true
+}

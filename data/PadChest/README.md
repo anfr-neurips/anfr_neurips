@@ -1,0 +1,1 @@
+After downloading the PadChest data from [here](https://bimcv.cipf.es/bimcv-projects/padchest/), run `preprocess_padchest.ipynb` to produce train, validation, and test csv files.
